@@ -1,0 +1,21 @@
+[debug] [2024-02-20T02:26:24.758Z] ----------------------------------------------------------------------
+[debug] [2024-02-20T02:26:24.759Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-02-20T02:26:24.760Z] CLI Version:   13.3.0
+[debug] [2024-02-20T02:26:24.760Z] Platform:      win32
+[debug] [2024-02-20T02:26:24.760Z] Node Version:  v21.2.0
+[debug] [2024-02-20T02:26:24.760Z] Time:          Mon Feb 19 2024 21:26:24 GMT-0500 (Eastern Standard Time)
+[debug] [2024-02-20T02:26:24.760Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-20T02:26:24.764Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-20T02:26:24.764Z] > authorizing via signed-in user (harith.kotelawala@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Wealthica\wealthica-deposit-summary
+
