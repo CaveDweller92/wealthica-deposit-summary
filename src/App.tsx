@@ -6,9 +6,7 @@ import './App.css';
 import { initTracking, trackEvent } from './analytics';
 import { DEFAULT_BASE_CURRENCY, TRANSACTIONS_FROM_DATE } from './constants';
 import { Account, AccountTransaction, CashFlow, Portfolio, Position, Transaction } from './types';
-import { Currencies, CurrencyContextProvider } from './context/CurrencyContext';
-import {   Tabs } from 'antd';
-import { Flex } from 'rebass';
+import { Currencies } from './context/CurrencyContext';
 
 type State = {
   securityTransactions: Transaction[];
