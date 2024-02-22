@@ -32,7 +32,7 @@ export default function App() {
   });
   const addOnOptions = addOnOptionsRef.current;
 
-  const [state, setState] = useState<State>({
+  const [state] = useState<State>({
     securityTransactions: [],
     accountTransactions: [],
     portfolios: [],
