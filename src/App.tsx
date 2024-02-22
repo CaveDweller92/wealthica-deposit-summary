@@ -44,10 +44,11 @@ export default function App() {
     isLoaded: false,
   });
 
-  function updateState(_state: Partial<State>) {
-    console.debug('[DEBUG] Update state', { newState: _state, state });
-    setState({ ...state, ..._state });
-  }
+  // function updateState(_state: Partial<State>) {
+  //   console.debug('[DEBUG] Update state', { newState: _state, state });
+  //   setState({ ...state, ..._state });
+  // }
+  
   const [isLoadingOnUpdate, setLoadingOnUpdate] = useState<boolean>(false);
   const getAddon = (addOnOptionsRef: React.RefObject<Record>): any => {
     function updateOptions(_addOnOptions: Record | null, options: Record) {
@@ -187,6 +188,8 @@ export default function App() {
     }
  
  console.log('transactionsData',transactionsData);
+ console.log('portfolioData',portfolioData);
+ console.log('positionsData',positionsData);
   }
 
   if (state.isLoaded) {
